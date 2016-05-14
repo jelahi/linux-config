@@ -1,2 +1,2 @@
 # linux-config
-My linux configuration
+A place to keep track of my Linux configuration
