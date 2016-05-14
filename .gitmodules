@@ -1,4 +1,0 @@
-[submodule "zsh/.zprezto"]
-	path = zsh/.zprezto
-	url = https://github.com/jelahi/prezto.git
-	branch = master
