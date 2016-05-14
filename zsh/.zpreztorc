@@ -1,1 +1,36 @@
-/home/juel/.linux-config/zsh/.zprezto/runcoms/zpreztorc
+
+# Load zpreztorc from zprezto
+source "$ZDOTDIR/.zprezto/runcoms/zpreztorc"
+
+# Set the Prezto modules to load (browse modules).
+# The order matters.
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'completion' \
+  'prompt' \
+  'archive' \
+  'command-not-found' \
+  'history-substring-search' \
+  'git'
+
+# {{{ Editor ...
+
+# Auto convert .... to ../..
+zstyle ':prezto:module:editor' dot-expansion 'yes'
+
+# }}}
+
+# {{{ Prompt ...
+
+# Set the prompt theme to load.
+# Setting it to 'random' loads a random theme.
+# Auto set to 'off' on dumb terminals.
+#zstyle ':prezto:module:prompt' theme 'powerlevel9k'
+
+# }}}

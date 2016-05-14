@@ -1,1 +1,3 @@
-/home/juel/.linux-config/zsh/.zprezto/runcoms/zprofile
+
+# Load zprofile from zprezto
+source "$ZDOTDIR/.zprezto/runcoms/zprofile"
