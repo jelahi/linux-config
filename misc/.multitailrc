@@ -1,0 +1,15 @@
+# Turn off mail check
+check_mail:0
+
+colorscheme:snpslog:snps log file
+
+# Strings
+cs_re:green,,bold:'.*'
+# Comments
+cs_re:green:#.*
+# Error
+cs_re:white,red:^Error:
+# Warning
+cs_re:black,yellow:^Warning:
+# SNPS msg type
+cs_re:blue,,bold:\(.*\)$
