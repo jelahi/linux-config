@@ -9,9 +9,11 @@
 #  7) /etc/zlogin   -> Run for login shells.       (login)
 #  8)   ~/.zlogin   -> Run for login shells.       (login)
 
-
-
 # Source Prezto
 if [[ -s "${ZDOTDIR}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR}/.zprezto/init.zsh"
 fi
+
+source ${ZDOTDIR}/aliases.zsh
+source ${ZDOTDIR}/bindings.zsh
+source ${ZDOTDIR}/history.zsh
