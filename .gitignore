@@ -1,0 +1,4 @@
+.zcompcache
+*.zwc
+*.zwc.old
+.zcompdump
