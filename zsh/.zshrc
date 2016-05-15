@@ -9,6 +9,9 @@
 #  7) /etc/zlogin   -> Run for login shells.       (login)
 #  8)   ~/.zlogin   -> Run for login shells.       (login)
 
+# Source powerlevel9k
+source ${ZDOTDIR}/.zpowerlevelrc
+
 # Source Prezto
 if [[ -s "${ZDOTDIR}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR}/.zprezto/init.zsh"
