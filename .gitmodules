@@ -2,3 +2,6 @@
 	path = zsh/.zprezto
 	url = https://github.com/jelahi/prezto.git
 	branch = master 
+[submodule "zsh/functions/external/alias-tips"]
+	path = zsh/functions/external/alias-tips
+	url = https://github.com/djui/alias-tips
