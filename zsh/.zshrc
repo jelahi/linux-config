@@ -17,6 +17,13 @@ if [[ -s "${ZDOTDIR}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR}/.zprezto/init.zsh"
 fi
 
+# FIXME
+# 	Path alias-tips path and external repo.
+# 	add chpwd function
+# 	Source other external modules
+source ${ZDOTDIR}/modules/alias-tips/alias-tips.plugin.zsh
+export ZSH_PLUGINS_ALIAS_TIPS_EXPAND=1
+
 source ${ZDOTDIR}/aliases.zsh
 source ${ZDOTDIR}/bindings.zsh
 source ${ZDOTDIR}/history.zsh
