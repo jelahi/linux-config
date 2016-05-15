@@ -21,8 +21,8 @@ fi
 # 	Path alias-tips path and external repo.
 # 	add chpwd function
 # 	Source other external modules
-source ${ZDOTDIR}/modules/alias-tips/alias-tips.plugin.zsh
-export ZSH_PLUGINS_ALIAS_TIPS_EXPAND=1
+#source ${ZDOTDIR}/modules/alias-tips/alias-tips.plugin.zsh
+#export ZSH_PLUGINS_ALIAS_TIPS_EXPAND=1
 
 source ${ZDOTDIR}/aliases.zsh
 source ${ZDOTDIR}/bindings.zsh
